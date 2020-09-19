@@ -17,10 +17,11 @@ public class U_1581 {
     		
     		for (int j = 0; j < qtdPeople; j++) {
     			
+    			String inputLanguage = input.next();
 				if (j == 0) {
-					firstLanguage = input.next();
+					firstLanguage = inputLanguage;
 					language = firstLanguage;
-				} else if (!firstLanguage.equals(input.next())) {
+				} else if (!firstLanguage.equals(inputLanguage)) {
 					language = "ingles";
 				}
     			
